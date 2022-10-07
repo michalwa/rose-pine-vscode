@@ -545,7 +545,7 @@
 			}
 		},
 		{
-			"scope": ["meta.import", "meta.export"],
+			"scope": ["meta.attribute"],
 			"settings": {
 				"foreground": "#31748f"
 			}
@@ -576,15 +576,16 @@
 			}
 		},
 		{
-			"scope": ["punctuation", "keyword.operator.namespace"],
+			"scope": [
+				"punctuation",
+				"keyword.operator.namespace",
+				"punctuation.accessor",
+				"keyword.operator.access",
+				"keyword.operator.key-value",
+				"keyword.operator.arrow"
+			],
 			"settings": {
 				"foreground": "#6e6a86"
-			}
-		},
-		{
-			"scope": ["punctuation.accessor"],
-			"settings": {
-				"foreground": "#31748f"
 			}
 		},
 		{
