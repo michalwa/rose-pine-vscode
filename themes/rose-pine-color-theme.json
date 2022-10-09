@@ -158,8 +158,8 @@
 		"editorInlayHint.typeForeground": "#9ccfd8",
 		"editorLightBulb.foreground": "#31748f",
 		"editorLightBulbAutoFix.foreground": "#ebbcba",
-		"editorLineNumber.activeForeground": "#e0def4",
-		"editorLineNumber.foreground": "#908caa",
+		"editorLineNumber.activeForeground": "#908caa",
+		"editorLineNumber.foreground": "#6e6a8670",
 		"editorLink.activeForeground": "#ebbcba",
 		"editorMarkerNavigation.background": "#1f1d2e",
 		"editorMarkerNavigationError.background": "#1f1d2e",
@@ -616,18 +616,6 @@
 			"scope": ["support"],
 			"settings": {
 				"foreground": "#9ccfd8"
-			}
-		},
-		{
-			"scope": ["support.constant"],
-			"settings": {
-				"foreground": "#f6c177"
-			}
-		},
-		{
-			"scope": ["support.function"],
-			"settings": {
-				"foreground": "#eb6f92",
 			}
 		},
 		{
