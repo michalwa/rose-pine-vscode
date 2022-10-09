@@ -1,12 +1,11 @@
 {
 	"name": "rose-pine",
 	"version": "2.5.0",
-	"publisher": "mvllow",
-	"contributors": ["michalwa"],
+	"publisher": "michalwa",
 	"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
 	"license": "MIT",
 	"repository": {
-		"url": "https://github.com/rose-pine/vscode"
+		"url": "https://github.com/michalwa/rose-pine-vscode"
 	},
 	"funding": "https://github.com/rose-pine/vscode?sponsor=1",
 	"sponsor": {
