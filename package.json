@@ -1,7 +1,8 @@
 {
 	"name": "rose-pine",
-	"version": "2.4.1",
+	"version": "2.5.0",
 	"publisher": "mvllow",
+	"contributors": ["michalwa"],
 	"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
 	"license": "MIT",
 	"repository": {
@@ -43,17 +44,17 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Rosé Pine",
+				"label": "Rosé Pine - Custom",
 				"uiTheme": "vs-dark",
 				"path": "./themes/rose-pine-color-theme.json"
 			},
 			{
-				"label": "Rosé Pine Moon",
+				"label": "Rosé Pine Moon - Custom",
 				"uiTheme": "vs-dark",
 				"path": "./themes/rose-pine-moon-color-theme.json"
 			},
 			{
-				"label": "Rosé Pine Dawn",
+				"label": "Rosé Pine Dawn - Custom",
 				"uiTheme": "vs",
 				"path": "./themes/rose-pine-dawn-color-theme.json"
 			}
