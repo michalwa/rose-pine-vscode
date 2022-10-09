@@ -695,7 +695,7 @@
 		{
 			"scope": ["meta.tag", "meta.brace"],
 			"settings": {
-				"foreground": "$text"
+				"foreground": "$muted"
 			}
 		},
 		{
