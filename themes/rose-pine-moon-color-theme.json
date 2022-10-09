@@ -5,8 +5,8 @@
 		"activityBar.activeBorder": "#e0def4",
 		"activityBar.background": "#232136",
 		"activityBar.dropBorder": "#393552",
-		"activityBar.foreground": "#6e6a86",
-		"activityBar.inactiveForeground": "#6e6a8670",
+		"activityBar.foreground": "#e0def4",
+		"activityBar.inactiveForeground": "#6e6a86",
 		"activityBarBadge.background": "#ea9a97",
 		"activityBarBadge.foreground": "#232136",
 		"badge.background": "#ea9a97",
@@ -158,8 +158,8 @@
 		"editorInlayHint.typeForeground": "#9ccfd8",
 		"editorLightBulb.foreground": "#3e8fb0",
 		"editorLightBulbAutoFix.foreground": "#ea9a97",
-		"editorLineNumber.activeForeground": "#908caa",
-		"editorLineNumber.foreground": "#6e6a8670",
+		"editorLineNumber.activeForeground": "#e0def4",
+		"editorLineNumber.foreground": "#6e6a86",
 		"editorLink.activeForeground": "#ea9a97",
 		"editorMarkerNavigation.background": "#2a273f",
 		"editorMarkerNavigationError.background": "#2a273f",
@@ -283,7 +283,7 @@
 		"merge.currentHeaderBackground": "#f6c17780",
 		"merge.incomingContentBackground": "#9ccfd880",
 		"merge.incomingHeaderBackground": "#9ccfd880",
-		"minimap.background": "#2a273f",
+		"minimap.background": "#232136",
 		"minimap.errorHighlight": "#eb6f9280",
 		"minimap.findMatchHighlight": "#817c9c26",
 		"minimap.selectionHighlight": "#817c9c26",
@@ -466,7 +466,7 @@
 		{
 			"scope": ["constant"],
 			"settings": {
-				"foreground": "#eb6f92"
+				"foreground": "#ea9a97"
 			}
 		},
 		{
@@ -490,7 +490,7 @@
 				"entity.name.section",
 				"entity.name.tag",
 				"entity.name.namespace",
-				"entity.name.type"
+				"entity.name.function"
 			],
 			"settings": {
 				"foreground": "#c4a7e7"
@@ -517,7 +517,7 @@
 		{
 			"scope": ["keyword"],
 			"settings": {
-				"foreground": "#3e8fb0"
+				"foreground": "#eb6f92"
 			}
 		},
 		{
@@ -542,12 +542,6 @@
 			"scope": ["meta.tag", "meta.brace"],
 			"settings": {
 				"foreground": "#e0def4"
-			}
-		},
-		{
-			"scope": ["meta.attribute"],
-			"settings": {
-				"foreground": "#3e8fb0"
 			}
 		},
 		{
@@ -602,7 +596,7 @@
 		{
 			"scope": ["storage.type", "storage.modifier"],
 			"settings": {
-				"foreground": "#3e8fb0"
+				"foreground": "#eb6f92"
 			}
 		},
 		{

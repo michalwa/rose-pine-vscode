@@ -5,8 +5,8 @@
 		"activityBar.activeBorder": "#575279",
 		"activityBar.background": "#faf4ed",
 		"activityBar.dropBorder": "#f2e9e1",
-		"activityBar.foreground": "#797593",
-		"activityBar.inactiveForeground": "#79759370",
+		"activityBar.foreground": "#575279",
+		"activityBar.inactiveForeground": "#9893a5",
 		"activityBarBadge.background": "#d7827e",
 		"activityBarBadge.foreground": "#faf4ed",
 		"badge.background": "#d7827e",
@@ -158,8 +158,8 @@
 		"editorInlayHint.typeForeground": "#56949f",
 		"editorLightBulb.foreground": "#286983",
 		"editorLightBulbAutoFix.foreground": "#d7827e",
-		"editorLineNumber.activeForeground": "#797593",
-		"editorLineNumber.foreground": "#79759370",
+		"editorLineNumber.activeForeground": "#575279",
+		"editorLineNumber.foreground": "#9893a5",
 		"editorLink.activeForeground": "#d7827e",
 		"editorMarkerNavigation.background": "#fffaf3",
 		"editorMarkerNavigationError.background": "#fffaf3",
@@ -283,7 +283,7 @@
 		"merge.currentHeaderBackground": "#ea9d3480",
 		"merge.incomingContentBackground": "#56949f80",
 		"merge.incomingHeaderBackground": "#56949f80",
-		"minimap.background": "#fffaf3",
+		"minimap.background": "#faf4ed",
 		"minimap.errorHighlight": "#b4637a80",
 		"minimap.findMatchHighlight": "#6e6a8614",
 		"minimap.selectionHighlight": "#6e6a8614",
@@ -359,7 +359,7 @@
 		"statusBar.debuggingForeground": "#faf4ed",
 		"statusBar.foreground": "#797593",
 		"statusBar.noFolderBackground": "#faf4ed",
-		"statusBar.noFolderForeground": "#797593",
+		"statusBar.noFolderForeground": "#9893a5",
 		"statusBarItem.activeBackground": "#6e6a8626",
 		"statusBarItem.hoverBackground": "#6e6a8614",
 		"statusBarItem.prominentBackground": "#f2e9e1",
@@ -466,7 +466,7 @@
 		{
 			"scope": ["constant"],
 			"settings": {
-				"foreground": "#286983"
+				"foreground": "#d7827e"
 			}
 		},
 		{
@@ -490,7 +490,7 @@
 				"entity.name.section",
 				"entity.name.tag",
 				"entity.name.namespace",
-				"entity.name.type"
+				"entity.name.function"
 			],
 			"settings": {
 				"foreground": "#907aa9"
@@ -545,12 +545,6 @@
 			}
 		},
 		{
-			"scope": ["meta.attribute"],
-			"settings": {
-				"foreground": "#286983"
-			}
-		},
-		{
 			"scope": "meta.directive.vue",
 			"settings": {
 				"foreground": "#907aa9"
@@ -584,7 +578,7 @@
 				"keyword.operator.arrow"
 			],
 			"settings": {
-				"foreground": "#575279"
+				"foreground": "#9893a5"
 			}
 		},
 		{

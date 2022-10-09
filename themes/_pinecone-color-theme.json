@@ -7,7 +7,7 @@
 		"activityBar.border": "",
 		"activityBar.dropBorder": "$overlay",
 		"activityBar.foreground": "$text",
-		"activityBar.inactiveForeground": "$subtle",
+		"activityBar.inactiveForeground": "$muted",
 		"activityBarBadge.background": "$primary",
 		"activityBarBadge.foreground": "$onPrimary",
 		"badge.background": "$primary",
@@ -187,7 +187,7 @@
 		"editorLightBulb.foreground": "$pine",
 		"editorLightBulbAutoFix.foreground": "$primary",
 		"editorLineNumber.activeForeground": "$text",
-		"editorLineNumber.foreground": "$subtle",
+		"editorLineNumber.foreground": "$muted",
 		"editorLink.activeForeground": "$primary",
 		"editorMarkerNavigation.background": "$surface",
 		"editorMarkerNavigationError.background": "$surface",
@@ -316,7 +316,7 @@
 		"merge.currentHeaderBackground": "$goldMuted",
 		"merge.incomingContentBackground": "$foamMuted",
 		"merge.incomingHeaderBackground": "$foamMuted",
-		"minimap.background": "$surface",
+		"minimap.background": "$base",
 		"minimap.errorHighlight": "$loveMuted",
 		"minimap.findMatchHighlight": "$highlightMed",
 		"minimap.selectionHighlight": "$highlightMed",
@@ -448,7 +448,7 @@
 		"statusBar.foreground": "$subtle",
 		"statusBar.noFolderBackground": "$base",
 		"statusBar.noFolderBorder": "",
-		"statusBar.noFolderForeground": "$subtle",
+		"statusBar.noFolderForeground": "$muted",
 		"statusBarItem.activeBackground": "$highlightHigh",
 		"statusBarItem.hoverBackground": "$highlightMed",
 		"statusBarItem.prominentBackground": "$overlay",
@@ -576,8 +576,6 @@
 		"tree.tableColumnsBorder": "",
 		"walkThrough.embeddedEditorBackground": "$base",
 		"welcomePage.background": "$base",
-		"welcomePage.buttonBackground": "$surface",
-		"welcomePage.buttonHoverBackground": "$overlay",
 		"welcomePage.progress.background": "",
 		"welcomePage.progress.foreground": "",
 		"welcomePage.tileBackground": "",
@@ -616,14 +614,13 @@
 		{
 			"scope": ["comment"],
 			"settings": {
-				"foreground": "$muted",
-				"fontStyle": "italic"
+				"foreground": "$muted"
 			}
 		},
 		{
 			"scope": ["constant"],
 			"settings": {
-				"foreground": "$pine"
+				"foreground": "$rose"
 			}
 		},
 		{
@@ -639,7 +636,7 @@
 		{
 			"scope": ["entity.name"],
 			"settings": {
-				"foreground": "$rose"
+				"foreground": "$foam"
 			}
 		},
 		{
@@ -647,17 +644,16 @@
 				"entity.name.section",
 				"entity.name.tag",
 				"entity.name.namespace",
-				"entity.name.type"
+				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "$foam"
+				"foreground": "$iris"
 			}
 		},
 		{
 			"scope": ["entity.other.attribute-name", "entity.other.inherited-class"],
 			"settings": {
-				"foreground": "$iris",
-				"fontStyle": "italic"
+				"foreground": "$foam"
 			}
 		},
 		{
@@ -675,7 +671,7 @@
 		{
 			"scope": ["keyword"],
 			"settings": {
-				"foreground": "$pine"
+				"foreground": "$love"
 			}
 		},
 		{
@@ -703,16 +699,9 @@
 			}
 		},
 		{
-			"scope": ["meta.import", "meta.export"],
-			"settings": {
-				"foreground": "$pine"
-			}
-		},
-		{
 			"scope": "meta.directive.vue",
 			"settings": {
-				"foreground": "$iris",
-				"fontStyle": "italic"
+				"foreground": "$iris"
 			}
 		},
 		{
@@ -734,21 +723,22 @@
 			}
 		},
 		{
-			"scope": ["punctuation"],
+			"scope": [
+				"punctuation",
+				"keyword.operator.namespace",
+				"punctuation.accessor",
+				"keyword.operator.access",
+				"keyword.operator.key-value",
+				"keyword.operator.arrow"
+			],
 			"settings": {
-				"foreground": "$subtle"
-			}
-		},
-		{
-			"scope": ["punctuation.accessor"],
-			"settings": {
-				"foreground": "$pine"
+				"foreground": "$muted"
 			}
 		},
 		{
 			"scope": ["punctuation.definition.string"],
 			"settings": {
-				"foreground": "$gold"
+				"foreground": "$rose"
 			}
 		},
 		{
@@ -760,13 +750,13 @@
 		{
 			"scope": ["storage.type", "storage.modifier"],
 			"settings": {
-				"foreground": "$pine"
+				"foreground": "$love"
 			}
 		},
 		{
 			"scope": ["string"],
 			"settings": {
-				"foreground": "$gold"
+				"foreground": "$rose"
 			}
 		},
 		{
@@ -776,23 +766,9 @@
 			}
 		},
 		{
-			"scope": ["support.constant"],
-			"settings": {
-				"foreground": "$gold"
-			}
-		},
-		{
-			"scope": ["support.function"],
-			"settings": {
-				"foreground": "$love",
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"scope": ["variable"],
 			"settings": {
-				"foreground": "$rose",
-				"fontStyle": "italic"
+				"foreground": "$rose"
 			}
 		},
 		{

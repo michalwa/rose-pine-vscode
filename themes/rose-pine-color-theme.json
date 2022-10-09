@@ -5,8 +5,8 @@
 		"activityBar.activeBorder": "#e0def4",
 		"activityBar.background": "#191724",
 		"activityBar.dropBorder": "#26233a",
-		"activityBar.foreground": "#6e6a86",
-		"activityBar.inactiveForeground": "#6e6a8670",
+		"activityBar.foreground": "#e0def4",
+		"activityBar.inactiveForeground": "#6e6a86",
 		"activityBarBadge.background": "#ebbcba",
 		"activityBarBadge.foreground": "#191724",
 		"badge.background": "#ebbcba",
@@ -146,8 +146,8 @@
 		"editorHoverWidget.foreground": "#908caa",
 		"editorHoverWidget.highlightForeground": "#e0def4",
 		"editorHoverWidget.statusBarBackground": "#0000",
-		"editorIndentGuide.activeBackground": "#6e6a8650",
-		"editorIndentGuide.background": "#6e6a8620",
+		"editorIndentGuide.activeBackground": "#6e6a86",
+		"editorIndentGuide.background": "#6e6a8666",
 		"editorInfo.border": "#26233a",
 		"editorInfo.foreground": "#9ccfd8",
 		"editorInlayHint.background": "#26233a",
@@ -158,8 +158,8 @@
 		"editorInlayHint.typeForeground": "#9ccfd8",
 		"editorLightBulb.foreground": "#31748f",
 		"editorLightBulbAutoFix.foreground": "#ebbcba",
-		"editorLineNumber.activeForeground": "#908caa",
-		"editorLineNumber.foreground": "#6e6a8670",
+		"editorLineNumber.activeForeground": "#e0def4",
+		"editorLineNumber.foreground": "#6e6a86",
 		"editorLink.activeForeground": "#ebbcba",
 		"editorMarkerNavigation.background": "#1f1d2e",
 		"editorMarkerNavigationError.background": "#1f1d2e",
@@ -283,7 +283,7 @@
 		"merge.currentHeaderBackground": "#f6c17780",
 		"merge.incomingContentBackground": "#9ccfd880",
 		"merge.incomingHeaderBackground": "#9ccfd880",
-		"minimap.background": "#1f1d2e",
+		"minimap.background": "#191724",
 		"minimap.errorHighlight": "#eb6f9280",
 		"minimap.findMatchHighlight": "#6e6a8633",
 		"minimap.selectionHighlight": "#6e6a8633",
@@ -460,7 +460,7 @@
 		{
 			"scope": ["comment"],
 			"settings": {
-				"foreground": "#6e6a86",
+				"foreground": "#6e6a86"
 			}
 		},
 		{
@@ -499,7 +499,7 @@
 		{
 			"scope": ["entity.other.attribute-name", "entity.other.inherited-class"],
 			"settings": {
-				"foreground": "#9ccfd8",
+				"foreground": "#9ccfd8"
 			}
 		},
 		{
@@ -545,16 +545,9 @@
 			}
 		},
 		{
-			"scope": ["meta.attribute"],
-			"settings": {
-				"foreground": "#31748f"
-			}
-		},
-		{
 			"scope": "meta.directive.vue",
 			"settings": {
-				"foreground": "#c4a7e7",
-				"fontStyle": "italic"
+				"foreground": "#c4a7e7"
 			}
 		},
 		{
@@ -621,7 +614,7 @@
 		{
 			"scope": ["variable"],
 			"settings": {
-				"foreground": "#ebbcba",
+				"foreground": "#ebbcba"
 			}
 		},
 		{
