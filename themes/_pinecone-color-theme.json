@@ -285,7 +285,7 @@
 		"list.focusBackground": "$highlightHigh",
 		"list.focusForeground": "$text",
 		"list.focusHighlightForeground": "",
-		"list.focusOutline": "$highlightMed",
+		"list.focusOutline": "$transparent",
 		"list.highlightForeground": "$primary",
 		"list.hoverBackground": "$highlightLow",
 		"list.hoverForeground": "$text",
@@ -728,11 +728,10 @@
 				"keyword.operator.namespace",
 				"punctuation.accessor",
 				"keyword.operator.access",
-				"keyword.operator.key-value",
-				"keyword.operator.arrow"
+				"keyword.operator.key-value"
 			],
 			"settings": {
-				"foreground": "$muted"
+				"foreground": "$subtle"
 			}
 		},
 		{

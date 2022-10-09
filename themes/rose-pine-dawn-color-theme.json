@@ -254,7 +254,7 @@
 		"list.filterMatchBorder": "#d7827e",
 		"list.focusBackground": "#6e6a8626",
 		"list.focusForeground": "#575279",
-		"list.focusOutline": "#6e6a8614",
+		"list.focusOutline": "#0000",
 		"list.highlightForeground": "#d7827e",
 		"list.hoverBackground": "#6e6a860d",
 		"list.hoverForeground": "#575279",
@@ -574,11 +574,10 @@
 				"keyword.operator.namespace",
 				"punctuation.accessor",
 				"keyword.operator.access",
-				"keyword.operator.key-value",
-				"keyword.operator.arrow"
+				"keyword.operator.key-value"
 			],
 			"settings": {
-				"foreground": "#9893a5"
+				"foreground": "#797593"
 			}
 		},
 		{
