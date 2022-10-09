@@ -11,6 +11,13 @@
     </a>
 </p>
 
+<p align="center">
+  <strong style="color: #eb6f92; font-size: 1.3em">
+      This is a personalized version of the original theme with opinionated
+      changes to the color selection for tokens and other minor tweaks.
+  </strong>
+</p>
+
 ## Usage
 
 1. Open VSCode
