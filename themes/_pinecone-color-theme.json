@@ -612,7 +612,7 @@
 	},
 	"tokenColors": [
 		{
-			"scope": ["comment"],
+			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"foreground": "$muted"
 			}

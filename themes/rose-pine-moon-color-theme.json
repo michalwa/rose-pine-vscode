@@ -457,7 +457,7 @@
 	},
 	"tokenColors": [
 		{
-			"scope": ["comment"],
+			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"foreground": "#6e6a86"
 			}
