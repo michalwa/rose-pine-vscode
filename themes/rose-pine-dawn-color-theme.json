@@ -259,7 +259,7 @@
 		"list.hoverBackground": "#6e6a860d",
 		"list.hoverForeground": "#575279",
 		"list.inactiveFocusBackground": "#6e6a860d",
-		"list.inactiveSelectionBackground": "#fffaf3",
+		"list.inactiveSelectionBackground": "#6e6a860d",
 		"list.inactiveSelectionForeground": "#575279",
 		"list.invalidItemForeground": "#b4637a",
 		"list.warningForeground": "#ea9d34",

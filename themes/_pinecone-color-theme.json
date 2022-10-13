@@ -291,7 +291,7 @@
 		"list.hoverForeground": "$text",
 		"list.inactiveFocusBackground": "$highlightLow",
 		"list.inactiveFocusOutline": "",
-		"list.inactiveSelectionBackground": "$surface",
+		"list.inactiveSelectionBackground": "$highlightLow",
 		"list.inactiveSelectionForeground": "$text",
 		"list.inactiveSelectionIconForeground": "",
 		"list.invalidItemForeground": "$error",
