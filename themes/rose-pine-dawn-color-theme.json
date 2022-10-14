@@ -540,7 +540,7 @@
 		{
 			"scope": ["meta.tag", "meta.brace"],
 			"settings": {
-				"foreground": "#9893a5"
+				"foreground": "#797593"
 			}
 		},
 		{
