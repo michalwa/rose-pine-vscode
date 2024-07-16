@@ -486,9 +486,14 @@
 			}
 		},
 		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#286983"
+			}
+		},
+		{
 			"scope": [
 				"entity.name.section",
-				"entity.name.tag",
 				"entity.name.namespace",
 				"entity.name.function"
 			],
@@ -497,7 +502,7 @@
 			}
 		},
 		{
-			"scope": ["entity.other.attribute-name", "entity.other.inherited-class"],
+			"scope": ["entity.other.attribute-name"],
 			"settings": {
 				"foreground": "#56949f"
 			}
@@ -551,9 +556,15 @@
 			}
 		},
 		{
+			"scope": "meta.tag.other.unrecognized entity.name.tag",
+			"settings": {
+				"foreground": "#907aa9"
+			}
+		},
+		{
 			"scope": "meta.property-name.css",
 			"settings": {
-				"foreground": "#56949f"
+				"foreground": "#d7827e"
 			}
 		},
 		{
@@ -601,11 +612,16 @@
 		{
 			"scope": ["string"],
 			"settings": {
-				"foreground": "#d7827e"
+				"foreground": "#d7827e",
+				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": ["support"],
+			"scope": [
+				"support.class",
+				"variable.other.constant",
+				"entity.other.inherited-class"
+			],
 			"settings": {
 				"foreground": "#56949f"
 			}
