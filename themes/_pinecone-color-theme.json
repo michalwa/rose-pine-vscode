@@ -316,7 +316,7 @@
 		"merge.currentHeaderBackground": "$goldMuted",
 		"merge.incomingContentBackground": "$foamMuted",
 		"merge.incomingHeaderBackground": "$foamMuted",
-		"minimap.background": "$base",
+		"minimap.background": "$baseMuted",
 		"minimap.errorHighlight": "$loveMuted",
 		"minimap.findMatchHighlight": "$highlightMed",
 		"minimap.selectionHighlight": "$highlightMed",

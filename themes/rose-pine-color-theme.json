@@ -283,7 +283,7 @@
 		"merge.currentHeaderBackground": "#f6c17780",
 		"merge.incomingContentBackground": "#9ccfd880",
 		"merge.incomingHeaderBackground": "#9ccfd880",
-		"minimap.background": "#191724",
+		"minimap.background": "#19172480",
 		"minimap.errorHighlight": "#eb6f9280",
 		"minimap.findMatchHighlight": "#6e6a8633",
 		"minimap.selectionHighlight": "#6e6a8633",
