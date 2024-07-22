@@ -641,7 +641,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.tag",
+			"scope": "entity.name.tag.html",
 			"settings": {
 				"foreground": "$pine"
 			}
@@ -782,7 +782,10 @@
 			}
 		},
 		{
-			"scope": ["source.json support.type.property-name"],
+			"scope": [
+				"source.json support.type.property-name",
+				"entity.name.tag.yaml"
+			],
 			"settings": {
 				"foreground": "$iris",
 				"fontStyle": ""

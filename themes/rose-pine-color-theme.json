@@ -486,7 +486,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.tag",
+			"scope": "entity.name.tag.html",
 			"settings": {
 				"foreground": "#31748f"
 			}
@@ -627,7 +627,10 @@
 			}
 		},
 		{
-			"scope": ["source.json support.type.property-name"],
+			"scope": [
+				"source.json support.type.property-name",
+				"entity.name.tag.yaml"
+			],
 			"settings": {
 				"foreground": "#c4a7e7",
 				"fontStyle": ""
